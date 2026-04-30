@@ -21,12 +21,12 @@ export default function Sidebar() {
       <div className="text-center py-6">
         <Image
         src="/uarclogo.png"
-        alt="UARC Logo"
+        alt="Logo "
         width={96}
         height={96}
         className="mx-auto mb-4"
       />
-              <h1 className="font-bold text-lg">UARC Tesorería</h1>
+              <h1 className="font-bold text-lg"> Tesorería</h1>
       </div>
       <nav className="flex-1 px-4">
         {menuItems.map((item) => (
